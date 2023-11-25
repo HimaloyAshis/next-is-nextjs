@@ -1,15 +1,15 @@
 import React from 'react';
 export const metadata = {
-    title: 'About | Bala Next App',
+    title: 'addProduct | Bala Next App',
     description: 'Bala Next App',
   }
 
-const AboutPage = () => {
+const AddProduct = () => {
     return (
         <div>
-            <p>AboutPage</p>
+            <h1>AddProduct</h1>
         </div>
     );
 };
 
-export default AboutPage;
+export default AddProduct;

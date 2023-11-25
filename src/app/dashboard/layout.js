@@ -1,15 +1,15 @@
 import React from 'react';
 export const metadata = {
-    title: 'About | Bala Next App',
+    title: 'Dashboard | Bala Next App',
     description: 'Bala Next App',
   }
 
-const AboutPage = () => {
+const DashboardLayout = ({children}) => {
     return (
         <div>
-            <p>AboutPage</p>
+            {children}
         </div>
     );
 };
 
-export default AboutPage;
+export default DashboardLayout;
