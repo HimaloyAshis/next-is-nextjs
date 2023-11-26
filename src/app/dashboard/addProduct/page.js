@@ -1,6 +1,6 @@
 import React from 'react';
 export const metadata = {
-    title: 'addProduct | Bala Next App',
+    title: 'addProduct | Dashboard | Bala Next App',
     description: 'Bala Next App',
   }
 
