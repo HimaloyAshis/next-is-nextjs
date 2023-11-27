@@ -13,8 +13,11 @@ const RootLayout = ({ children }) => {
     <html lang="en">
 
       <body className={inter.className}>
-        <nav>
-          <a href="ok">Home</a>
+        <nav className='flex  gap-3 text-xl text-purple-400'>
+          <a href="home">Home</a>
+          <a href="about">About</a>
+          <a href="Detail">Details</a>
+          <a href="product">Product</a>
         </nav>
         {children}
         <footer>
