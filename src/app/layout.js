@@ -1,4 +1,5 @@
 "use client"
+
 import { Inter } from 'next/font/google'
 import './globals.css'
 import Link from 'next/link'
@@ -22,7 +23,7 @@ const RootLayout = ({ children }) => {
           <Link href="/">Home</Link>
           <Link href="/about">About</Link>
           {/* <a href="about">About</a> */}
-          <a href="Detail">Details</a>
+          <a href="Detail">Detail</a>
           <a href="product">Product</a>
         </nav>
         {children}
