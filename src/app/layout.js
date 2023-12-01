@@ -13,7 +13,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 const RootLayout = ({ children }) => {
 
-  console.log("From RootLayout");
+  console.log("From  RootLayout");
 
   return (
     <html lang="en">
