@@ -1,15 +1,11 @@
-import React from 'react';
-export const metadata = {
-    title: 'Dashboard | Bala Next App',
-    description: 'Bala Next App',
-  }
+import Image from 'next/image'
 
-const DashBoardPage = () => {
-    return (
-        <div>
-            <h1>DashBoardPage</h1>
-        </div>
-    );
-};
+const  HomePage = () => {
+  return (
+    <main >
+      <h1>Home</h1>
+    </main>
+  )
+}
 
-export default DashBoardPage;
+export default HomePage
