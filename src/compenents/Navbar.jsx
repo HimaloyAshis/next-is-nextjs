@@ -23,16 +23,16 @@ const navLink = [
         title: 'Dashboard'
     },
     {
-        path: '/',
+        path: '/home',
         title: 'Home'
     },
 ]
 
 const Navbar = () => {
     return (
-        <nav className='flex items-center justify-between  container mx-auto'>
-            <h1 className='font-semibold text-red-500 text-3xl'>Next Hero</h1>
-            <ul className='flex items-center justify-center gap-3'>
+        <nav className='flex items-center justify-between container mx-auto max-w-screen-xl bg-slate-500'>
+            <h1 className='font-semibold text-red-700 text-3xl'>Next Hero</h1>
+            <ul className='flex items-center justify-center gap-3 '>
                 {
                     navLink.map(({ path, title }) =>
                     (<li className='mx-2' key={path}>
