@@ -30,14 +30,15 @@ const navLink = [
 
 const Navbar = () => {
     return (
-        <nav className='flex justify-between items-center'>
-            <h1 className='font-semibold text-3xl'>Next Hero</h1>
+        <nav className='flex items-center justify-between  container mx-auto'>
+            <h1 className='font-semibold text-red-500 text-3xl'>Next Hero</h1>
             <ul className='flex items-center justify-center gap-3'>
                 {
                     navLink.map(({ path, title }) =>
-                    <li key={path}>
+                    (<li className='mx-2' key={path}>
                         <Link href={path}>{title}</Link>
-                    </li> )
+                    </li>
+                    ))
                 }
             </ul>
         </nav>
