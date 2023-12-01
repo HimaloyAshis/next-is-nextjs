@@ -21,9 +21,7 @@ const RootLayout = ({ children }) => {
       <body className={inter.className}>
         
         {children}
-        <footer>
-          <p>This is footer</p>
-        </footer>
+      
       </body>
 
     </html>
