@@ -7,6 +7,7 @@ export const metadata = {
 const DashboardLayout = ({children}) => {
     return (
         <div>
+            <nav>Sidebar</nav>
             {children}
         </div>
     );
