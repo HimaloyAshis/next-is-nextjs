@@ -33,10 +33,8 @@ const Navbar = () => {
         <nav className='flex items-center justify-between container mx-auto max-w-screen-xl'>
             <h1 className='font-semibold text-red-700 text-3xl'>Next Hero</h1>
             
-            <div >
-              <Link href="/" >Home</Link>
-              <Link href="/dashboard" >Dashboard</Link>
-              <Link href="/dashboard/profile" >Dashboard</Link>
+            <div className='mr-3 '>
+              
             </div>
         </nav>
     );
