@@ -1,4 +1,4 @@
-import Navbar from '@/compenents/Navbar';
+import Navbar from '@/app/compenents/Navbar';
 import React from 'react';
 
 const WithLayout = ({ children }) => {

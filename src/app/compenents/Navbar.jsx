@@ -30,11 +30,11 @@ const navLink = [
 
 const Navbar = () => {
     return (
-        <nav className='flex items-center justify-between container mx-auto max-w-screen-xl bg-slate-500'>
+        <nav className='flex items-center justify-between container mx-auto max-w-screen-xl'>
             <h1 className='font-semibold text-red-700 text-3xl'>Next Hero</h1>
             
             <div >
-                <p className='text-4xl text-purple-600'>Poo</p>
+              
             </div>
         </nav>
     );
