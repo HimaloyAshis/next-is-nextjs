@@ -34,7 +34,9 @@ const Navbar = () => {
             <h1 className='font-semibold text-red-700 text-3xl'>Next Hero</h1>
             
             <div >
-              
+              <Link href="/" >Home</Link>
+              <Link href="/dashboard" >Dashboard</Link>
+              <Link href="/dashboard/profile" >Dashboard</Link>
             </div>
         </nav>
     );
