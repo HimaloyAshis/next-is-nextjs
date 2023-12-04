@@ -15,7 +15,7 @@ const navLink = [
         title: 'Profile'
     },
     {
-        path: '/addProduct',
+        path: '/dashboard/addProduct',
         title: 'AddProduct'
     },
     {
@@ -33,10 +33,10 @@ const Navbar = () => {
         <nav className='flex items-center justify-between container mx-auto max-w-screen-xl'>
             <h1 className='font-semibold text-red-700 text-3xl'>Next Hero</h1>
 
-            <ul className='mr-3 '>
+            <ul className='mr-3 flex justify-center items-center '>
                 {
                     navLink.map(({ path, title }) => (
-                    <li key={path}>
+                    <li className='mr-3' key={path}>
                         <Link href={path}>{title}</Link>
                     </li>
                     ))
