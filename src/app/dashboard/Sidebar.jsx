@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const navLink = [
@@ -21,8 +22,17 @@ const navLink = [
 
 const DashboardBar = () => {
     return (
-        <aside>
-            <h1>Dashboard Bar</h1>
+        <aside className='flex justify-center items-center'>
+            <h1>Next hero</h1>
+            <ul className='flex justify-center items-center mr-3'>
+                {
+                    navLink.map(({path, title})=>(
+                        <li key={path}>
+                            <Link href={path}>{title}</Link>
+                        </li>
+                    ))
+                }
+            </ul>
         </aside>
     );
 };
