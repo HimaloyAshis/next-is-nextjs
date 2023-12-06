@@ -2,15 +2,15 @@ import React from 'react';
 
 const navLink = [
     {
-        path:'/dashboard',
+        path:'/dashboard/profile',
         title:"Dashboard"
     },
     {
-        path:'/dashboard',
-        title:"Dashboard"
+        path:'/dashboard/addProduct',
+        title:"Add product"
     },
     {
-        path:'/dashboard',
+        path:'/dashboard/',
         title:"Dashboard"
     },
 ]
