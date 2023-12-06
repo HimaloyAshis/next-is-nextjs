@@ -22,10 +22,7 @@ const navLink = [
         path: '/dashboard',
         title: 'Dashboard'
     },
-    {
-        path: '/home',
-        title: 'Home'
-    },
+    
 ]
 
 const Navbar = () => {
