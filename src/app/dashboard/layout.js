@@ -8,7 +8,8 @@ export const metadata = {
 
 const DashboardLayout = ({children}) => {
     return (
-        <div className='flex justify-center items-center gap-4'>
+        <div className='items-center container mx-auto gap-4'>
+            <p className='text-3xl font-semibold'>Dashboard</p>
             <DashboardBar></DashboardBar>
             {children}
         </div>

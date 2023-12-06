@@ -4,7 +4,7 @@ import React from 'react';
 const navLink = [
     {
         path:'/dashboard/profile',
-        title:"Dashboard"
+        title:"Profile"
     },
     {
         path:'/dashboard/addProduct',
@@ -22,12 +22,12 @@ const navLink = [
 
 const DashboardBar = () => {
     return (
-        <aside className='flex justify-center items-center'>
+        <aside className=''>
             <h1>Next hero</h1>
-            <ul className='flex justify-center items-center mr-3'>
+            <ul className=''>
                 {
                     navLink.map(({path, title})=>(
-                        <li key={path}>
+                        <li className='my-3' key={path}>
                             <Link href={path}>{title}</Link>
                         </li>
                     ))
